@@ -1,0 +1,55 @@
+.hidden {display:none;}
+
+#wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+#lang {text-align:center; margin-top:50px;}
+
+#question {
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+#keyboard {
+    text-align:center;
+    border-top:1px solid silver;
+    padding-top:25px;
+    margin-top:25px;
+}
+#keyboard input[type="button"] {
+    border:1px solid silver;
+    background-color:#F0F0F0;
+    font-size:20px;
+    width:50px;
+    height:50px;
+    margin:5px;
+}
+#keyboard input[type="button"].err {background-color:red;}
+#keyboard input[type="button"].right {background-color:green; color:white;}
+
+#answer {
+    font-size:20px;
+    text-align:center;
+    border-top:1px solid silver;
+    padding-top:25px;
+    margin-top:25px;
+}
+#answer div {
+    border:1px solid silver;
+    background-color:#F0F0F0;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+}
+#answer div.ok {background-color:green; color:white;}
+
+#navigation {
+    border-top:1px solid silver;
+    padding-top:25px;
+    margin-top:25px;
+}
