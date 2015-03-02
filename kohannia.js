@@ -86,7 +86,7 @@ function start(lang) {
 }
 
 function showSelectLanguageDialogue() {
-
+    $('#lang').html('');
     $('#lang').append($('<input/>').attr({
                 type: 'button',
                 value: __('start_game', 'ua'),
